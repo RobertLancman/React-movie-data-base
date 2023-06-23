@@ -4,7 +4,6 @@ import styles from './ActorCard.module.css';
 import { Link } from 'react-router-dom';
 
 const ActorCard = ({ actor }) => {
-  console.log(actor);
 
   const image = actor.profile_path
     ? `https://image.tmdb.org/t/p/w500/${actor.profile_path}`

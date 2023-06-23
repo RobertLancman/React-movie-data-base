@@ -6,7 +6,6 @@ import ActorPage from './pages/ActorPage/ActorPage';
 import SearchPage from './pages/SearchPage/SearchPage';
 
 const App = () => {
-  // let a = 5;
   return (
     <BrowserRouter>
       <Routes>

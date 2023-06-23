@@ -8,7 +8,6 @@ const ActorPage = () => {
 
   const { id } = useParams()
   const { data } = useFetch(`person/${id}`);
-  console.log(data);
 
   const imageURL = `https://image.tmdb.org/t/p/w500/${data.profile_path}`;
 

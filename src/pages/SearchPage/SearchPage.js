@@ -16,7 +16,6 @@ const SearchPage = () => {
     getData()
   }, [query])
 
-  console.log(result);
 
   const getData = async () => {
     try {

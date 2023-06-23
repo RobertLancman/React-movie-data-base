@@ -13,8 +13,6 @@ const HomePage = () => {
 
   const bannerMovie = playingMovies.data[0];
 
-  // console.log(bannerMovie);
-  // console.log(popularMovies.data);
 
   if (!bannerMovie) return;
 

@@ -10,7 +10,6 @@ const MoviePage = () => {
 
   const { data: people } = useFetch(`/movie/${params.id}/credits`);
   const cast = people.cast;
-  console.log(cast);
 
   return (
     <div>
