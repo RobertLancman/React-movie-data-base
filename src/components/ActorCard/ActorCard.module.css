@@ -1,0 +1,10 @@
+.actor {
+  flex-grow: 1;
+  flex-basis: 200px;
+  color: white;
+  text-decoration: none;
+}
+
+.actor img {
+  width: 100%;
+}
