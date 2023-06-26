@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const ActorCard = ({ actor }) => {
 
-  const image = actor.profile_path
-    ? `https://image.tmdb.org/t/p/w500/${actor.profile_path}`
+  const image = actor?.profile_path
+    ? `https://image.tmdb.org/t/p/w500/${actor?.profile_path}`
     : ph;
 
   return (
